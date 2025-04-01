@@ -7,7 +7,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
 # Define patterns to ignore (any email containing these words will be excluded)
-IGNORE_PATTERNS = ["noreply", "no-reply", "internal", "Avinash", "thota", "avi"]
+IGNORE_PATTERNS = ["noreply", "no-reply", "internal", "Avinash", "thota", "avi" , ".dice.com", ".linkedin.com" ]
 
 def get_service():
     """Authenticate and return a Gmail API service."""
